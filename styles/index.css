@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 20px;
+    overflow: auto;
+}
+
+.graphik-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.graphik-field {
+    width: 180px;
+    height: 25px;
+    font-family: sans-serif;
+    font-size: 1rem;
+    color: #494848;
+    outline: none;
+    border: 2px solid #494848;
+    padding: 2px 10px;
+    border-radius: 0.3rem;
+}
+
+.graphik-build {
+    height: 30px;
+    width: 180px;
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #494848;
+    border: 2px solid #494848;
+    background: none;
+    border-radius: 0.3rem;
+    margin-top: 7px;
+}
+
+.graphik-build:hover {
+    cursor: pointer;
+}
+
+.graphik-build:active {
+    color: #999797;
+    border: 2px solid #999797;
+    background: #f8f8f8;
+    cursor: pointer;
+}
+
+.graphik {
+    border: 2px solid #494848;
+    border-radius: 0.3rem;
+    margin-top: 10px;
+}
